@@ -22,7 +22,7 @@ const Sidebar = () => {
                 {extended?<p>New Chat</p>:null} 
             </div>
         </div>
-        {/* {extended?
+        {extended?
         <div  className="recent">
             <p className="recent-title">Recent</p>
             {prevPrompts.map((item,index)=>{
@@ -35,7 +35,7 @@ const Sidebar = () => {
                 )
             })}
            
-        </div>:null} */}
+        </div>:null}
         {/* <div className="bottom">
             <div className="bottom-item recent-entry">
                 <img src={assets.question_icon} alt="" />
